@@ -5,6 +5,7 @@ body{
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 40px;
+    
 }
 div.folha{
     background-color: white;
@@ -15,6 +16,7 @@ div.folha{
     padding-right: 3cm;
     padding-top: 2cm;
     padding-bottom: 2cm;
+    font-size: 10pt;
 }
 
 div.texto{
@@ -24,10 +26,6 @@ div.texto{
 
 b{
     color: #666;
-}
-
-p{
-    font-size: 10pt;
 }
 
 h2{
