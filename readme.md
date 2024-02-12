@@ -2,7 +2,7 @@
 
 ## Resumo
 
-Técnico em Eletrotécnica formado pelo IFES e ex-estudante de Engenharia Elétrica na UFES, meu percurso profissional evoluiu na direção da minha paixão por tecnologia. Iniciei minha carreira com programação de microcontroladores e desenvolvimento de aplicativos Java para Android, experiência que me trouxe um profundo entendimento de sistemas embarcados. Atualmente, estou focado em aprimorar minhas habilidades na área de Engenharia de Controle e Automação, por meio de meus estudos no IFES. Tenho o compromisso contínuo de me aprimorar e preencher as lacunas em meu conhecimento, buscando oportunidades de aprendizado online sempre que possível. Estou determinado a me tornar um profissional altamente capacitado e dedicado a contribuir de forma significativa no campo da tecnologia e automação.
+Sou um engenheiro em formação na área de Controle e Automação pelo IFES, com um ano de experiência sólida em programação, concentrando-me em Node.js, Angular JS, Python e C++, com aplicações direcionadas para a computação industrial e a indústria 4.0. Durante este período, desenvolvi um servidor OPC UA e trabalhei com diversos protocolos industriais, incluindo Modbus, MQTT e outros. Comprometo-me a buscar constantemente o aprimoramento, preenchendo lacunas em meu conhecimento utilizando recursos online e práticos para me manter atualizado com as últimas tendências e tecnologias. Lidar com tecnologias como Zigbee e LoRa ampliou meu espectro de habilidades, agregando conhecimento em comunicação sem fio e redes de sensores. Meu objetivo é me tornar um profissional altamente capacitado e dedicado a contribuir significativamente para o avanço da tecnologia e automação industrial.
 
 ## Competências
 
@@ -13,18 +13,23 @@ Técnico em Eletrotécnica formado pelo IFES e ex-estudante de Engenharia Elétr
 
 ### Programação
 - Conhecimento Intermediário de C/C++;
-- Conhecimento Intermediário de Python;
+- Conhecimento Avançado de Python;
+- Conhecimento Intermediário de Django
 - Conhecimento Avançado de JavaScript;
-- Conhecimento Básico de React;
-- Conhecimento Básico de Angular;
+- Conhecimento Intermediário de AngularJs;
 - Experiência de 1 ano com Node.js.
 
 ### Microcontroladores
 - Conhecimento em arquitetura AVR;
-- Conhecimento intermediário em microcontroladores da Espressif e STMicroelectronics, usando Arduino IDE;
+- Experiência em microcontroladores da Espressif e STMicroelectronics, usando Arduino IDE;
 - Experiência com Raspberry Pi;
 
 ## Experiência
+
+### 2Solve, Vitória-ES - Programador de sistemas de informação
+DESDE OUTUBRO DE 2023
+
+Trabalho na área de aprimoramento, manutenção e suporte do produto "2STools Industrial Computer" (2SIC), garantindo o contínuo desenvolvimento de suas funcionalidades, melhorias e correções nos softwares incorporados, como o "Device Manager" e "Pumpjack Manager". Utilizo diversas linguagens de programação, como JavaScript, HTML, CSS, NodeJS, Python e C++, para criar aplicativos da web. Além disso, possuo experiência na supervisão dos processos de desenvolvimento e manutenção do hardware associado ao 2SIC, contribuindo para resolver questões de software e hardware relacionadas ao produto.
 
 ### 2Solve, Vitória-ES - Estágio
 OUTUBRO DE 2022 - OUTUBRO DE 2023
