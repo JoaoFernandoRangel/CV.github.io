@@ -7,10 +7,10 @@ Sou um engenheiro em formação na área de Controle e Automação pelo IFES, co
 ## Competências
 
 ### Informática
-- Domínio Intermediário de Linux;
+- Domínio Intermediário de Git/Github;
 - Domínio Avançado do Pacote Microsoft Office e LibreOffice;
 - Domínio Avançado de Google Suite;
-- Domínio Intermediário de Git/Github;
+- Domínio Intermediário de Linux;
 
 ### Programação
 - Conhecimento Avançado de C/C++;
@@ -19,23 +19,33 @@ Sou um engenheiro em formação na área de Controle e Automação pelo IFES, co
 
 ### Sistemas Embarcados
 - Experiência extensa em PlatformIO;
-- Experiência extensa em Telinha;
+- Experiência extensa em desenvolvimento de interfaces para sistemas embarcados;
 - Experiência extensa em modularização de sistemas embarcados;
+- Experiência de revisão de design de placas de circuito impresso;
 
 
 ## Experiência
 
 ### 2Solve, Vitória-ES - Estagiário de Firmware: JUNHO DE 2024 - ABRIL DE 2025
-Resposável por desenvolver telinhas, 
+Resposável por integrar e desenvolver interfaces gráficas às soluções desenvolvidas pela empresa. Na 2Solve tive a oportunidade de aprimorar minhas habilidades de programação de baixo nível. Além disso, tive experiências com métodos ageis de programação.
 
-### Laboratório de Desenvolvimento, IFES - Apoio técnico: OUTUBRO DE 2023 - JUNHO DE 2024
-Resposável por Gemeo digital completo, manutenção do sistema, melhorias e rotinas de coleta dedados. Apoio a desenvolvimento de pesquisa de otimização com heurística.
+### Laboratório de Desenvolvimento, IFES - Apoio técnico
 
-### Laboratório de Desenvolvimento, IFES - Iniciação Tecnológica: OUTUBRO DE 2022 - OUTUBRO DE 2023
-Resposável por Desenvolvimento do gêmeo digital, esp32, mqtt, rotinas em python, comunicação com aplicativo Unity.
+OUTUBRO DE 2023 - JUNHO DE 2024
 
-### Labtef, IFES - Iniciação Científica: OUTUBRO DE 2021 - OUTUBRO DE 2022
-Resposável por Pesquisa sobre Gêmeo Digital, operação da planta didática
+    Resposável por Gemeo digital completo, manutenção do sistema, melhorias e rotinas de coleta dedados. Apoio a desenvolvimento de pesquisa de otimização com heurística.
+
+### Laboratório de Desenvolvimento, IFES Iniciação Tecnológica
+
+OUTUBRO DE 2022 - OUTUBRO DE 2023
+
+    Neste projeto fui responsável por criar métodos de monitoramento de uma planta industrial didática. Tive oportunidade de aprender e integrar um aplicativo Unity com um sistema físico utilizando o protocolo MQTT. Os trabalho desenvolvidos aqui foram publicados em dois congressos internacionais.
+
+### Labtef, IFES - Iniciação Científica
+
+OUTUBRO DE 2021 - OUTUBRO DE 2022
+
+    Ainda no segundo período fui o único aluno em um projeto de desenvolvimento de um gêmeo digital de um braço robótico. Fui responsável por operar e desenvolver rotinas de uma planta industrial didática para possibilitar o estudo da planta.
 
 ## Educação
 
