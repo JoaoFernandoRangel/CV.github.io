@@ -1,0 +1,145 @@
+/* Estilos base inspirados no LaTeX */
+:root {
+    --text-color: #000;
+    --bg-color: #fff;
+    --link-color: blue;
+    --section-border-color: #000;
+    --button-bg: #f0f0f0;
+    --button-text: #333;
+    --button-hover-bg: #e0e0e0;
+}
+
+[data-theme="dark"] {
+    --text-color: #e0e0e0;
+    --bg-color: #121212;
+    --link-color: #7aa2f7;
+    --section-border-color: #444;
+    --button-bg: #333;
+    --button-text: #e0e0e0;
+    --button-hover-bg: #444;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    line-height: 1.4;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.5in;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    font-size: 11pt;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cabeçalho com duas colunas */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.left-header {
+    width: 50%;
+}
+
+.right-header {
+    width: 50%;
+    text-align: right;
+}
+
+.name {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+
+.contact-info {
+    color: var(--link-color);
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.theme-toggle-container {
+    margin-top: 0.5em;
+}
+
+.theme-toggle-btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: 1px solid var(--section-border-color);
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 10pt;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-toggle-btn:hover {
+    background-color: var(--button-hover-bg);
+}
+
+/* Seções */
+.section {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.section-title {
+    font-size: 12pt;
+    font-weight: bold;
+    border-bottom: 1px solid var(--section-border-color);
+    padding-bottom: 0.2em;
+    margin-bottom: 0.6em;
+}
+
+/* Entradas de experiência e projetos */
+.entry {
+    margin-bottom: 1em;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.entry-title {
+    font-weight: bold;
+}
+
+.entry-details {
+    font-style: italic;
+    margin-bottom: 0.2em;
+}
+
+.entry-date {
+    font-weight: normal;
+}
+
+ul {
+    padding-left: 1.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+li {
+    margin-bottom: 0.2em;
+}
+
+.skills-list {
+    margin-top: 0.5em;
+}
+
+.project-tech {
+    font-style: italic;
+    font-weight: normal;
+}
