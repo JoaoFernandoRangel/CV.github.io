@@ -10,38 +10,39 @@
     <!-- Cabeçalho com informações pessoais -->
     <div class="header-container">
         <div class="left-header">
-            <div class="name">JOÃO GUIMARÃES</div>
+            <div class="name" id="name">JOÃO GUIMARÃES</div>
             <div>
-                Vila Velha, Brazil - 25 anos<br>
-                Brasileiro
+                <span id="location">Vila Velha, Brazil - 25 anos</span><br>
+                <span id="nationality">Brasileiro</span>
             </div>
         </div>
         <div class="right-header">
             <div class="contact-info">
-                +55 (27) 988 629 108<br>
-                joaofrguimaraes1l@gmail.com
+                <span id="phone">+55 (27) 988 629 108</span><br>
+                <span id="email">joaofrguimaraes1l@gmail.com</span>
             </div>
             <div class="contact-info">
-                <a href="https://github.com/JoaoFernandoRangel">GitHub</a> &nbsp;
-                <a href="https://www.linkedin.com/in/jo%C3%A3o-fernando-guimar%C3%A3es-8481a5275/">LinkedIn</a>
+                <a href="https://github.com/JoaoFernandoRangel" id="github-link">GitHub</a> &nbsp;
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-fernando-guimar%C3%A3es-8481a5275/" id="linkedin-link">LinkedIn</a>
             </div>
             <div class="theme-toggle-container">
-                <button id="theme-toggle" class="theme-toggle-btn">Clique para Modo Noturno</button>
+                <button id="theme-toggle" class="theme-toggle-btn">Modo Noturno</button>
+                <button id="language-toggle" class="language-toggle-btn">English</button>
             </div>
         </div>
     </div>
 
-    <!-- Restante do conteúdo permanece igual -->
+    <!-- Seção de Experiência -->
     <div class="section">
-        <div class="section-title">Experiência</div>
+        <div class="section-title" id="experience-title">Experiência</div>
         
         <div class="entry">
             <div class="entry-header">
-                <span class="entry-title">2Solve Inteligência Técnológica</span>
-                <span class="entry-date">Junho, 2024 -- Abril, 2025</span>
+                <span class="entry-title" id="experience-1-title">2Solve Inteligência Técnológica</span>
+                <span class="entry-date" id="experience-1-date">Junho, 2024 -- Abril, 2025</span>
             </div>
-            <div class="entry-details">Estagiário de Desenvolvimento de Firmware | Vitória - ES</div>
-            <ul>
+            <div class="entry-details" id="experience-1-job">Estagiário de Desenvolvimento de Firmware | <span id="experience-1-location">Vitória - ES</span></div>
+            <ul id="experience-1-desc">
                 <li>Desenvolvi interfaces dinâmicas e responsíval ao usuário utilizando LVGL e displays LCDS embarcados com ESP32-S3.</li>
                 <li>Contribui para a criação de arquiteturas padronizadas de firmware e o estabelecimento de padrões de projetos para projetos internos baseados em ESP32.</li>
                 <li>Projetei e implementei bibliotecas de componentes modulares de modo a acelerar a integração de diversas tecnologias através de diversas plataformas em múltiplos projetos da empresa.</li>
@@ -49,15 +50,16 @@
         </div>
     </div>
 
+    <!-- Seção de Projetos -->
     <div class="section">
-        <div class="section-title">Projetos</div>
+        <div class="section-title" id="projects-title">Projetos</div>
         
         <div class="entry">
             <div class="entry-header">
-                <span class="entry-title">Rede IoT com LoRa e Webserver baseada no MCU ESP32 <span class="project-tech">ESP32, LoRa, MQTT, HTTP</span></span>
-                <span class="entry-date">2022-2025</span>
+                <span class="entry-title" id="project-1-title">Rede IoT com LoRa e Webserver baseada no MCU ESP32 <span class="project-tech" id="project-1-tech">ESP32, LoRa, MQTT, HTTP</span></span>
+                <span class="entry-date" id="project-1-date">2022-2025</span>
             </div>
-            <ul>
+            <ul id="project-1-desc">
                 <li>Projetei e implementei uma rede de sensores sem fio baseada em LoRa, gerenciada por um gateway em ESP32 com suporte aos protocolos MQTT e HTTP.</li>
                 <li>Desenvolvi um web server integrado hospedado no ESP32, acessível via rede Wi-Fi local, permitindo atualizações de firmware over-the-air (OTA) e controle remoto dos nós LoRa distribuídos.</li>
             </ul>
@@ -65,10 +67,10 @@
         
         <div class="entry">
             <div class="entry-header">
-                <span class="entry-title">Gêmeo Digital para um Sistema Híbrido Térmo-Fotovoltaico <span class="project-tech">Python, Pandas, Industrial Communication Protocols</span></span>
-                <span class="entry-date">2023-2025</span>
+                <span class="entry-title" id="project-2-title">Gêmeo Digital para um Sistema Híbrido Térmo-Fotovoltaico <span class="project-tech" id="project-2-tech">Python, Pandas, Industrial Communication Protocols</span></span>
+                <span class="entry-date" id="project-2-date">2023-2025</span>
             </div>
-            <ul>
+            <ul id="project-2-desc">
                 <li>Participei do desenvolvimento de um Gêmeo Digital para um sistema híbrido fotovoltaico-térmico legado, criando um gateway para comunicação com a plataforma Smarthub usando protocolos industriais.</li>
                 <li>Conectei o sistema físico a uma simulação 3D desenvolvida em Unity3D para monitoramento e análise em tempo real da micro usina.</li>
                 <li>A pesquisa resultou na publicação de um artigo</li>
@@ -77,39 +79,41 @@
         
         <div class="entry">
             <div class="entry-header">
-                <span class="entry-title">Gêmeo Digital para Planta Didática de Manufatura com Braço Robótico <span class="project-tech">Python, Esp32, C/C++</span></span>
-                <span class="entry-date">2021 - 2023</span>
+                <span class="entry-title" id="project-3-title">Gêmeo Digital para Planta Didática de Manufatura com Braço Robótico <span class="project-tech" id="project-3-tech">Python, Esp32, C/C++</span></span>
+                <span class="entry-date" id="project-3-date">2021 - 2023</span>
             </div>
-            <ul>
+            <ul id="project-3-desc">
                 <li>Participei do desenvolvimento de um Gêmeo Digital para monitoramento remoto de uma planta didática de manufatura equipada com um braço robótico.</li>
-                <li>Projetei e desenvolvi firmware para coletar dados de sensores e atuadores via ESP32, sincronizando-os com a pose do braço robótico.</li>
+                <li>Projetei e desenvolvi firmware para coletar dados de sensores and atuadores via ESP32, sincronizando-os com a pose do braço robótico.</li>
                 <li>Os dados foram transmitidos usando MQTT e visualizados em tempo real usando uma interface customizada em Unity3D.</li>
                 <li>A pesquisa produziu 2 artigos publicados.</li>
             </ul>
         </div>
     </div>
 
+    <!-- Seção de Educação -->
     <div class="section">
-        <div class="section-title">Educação</div>
+        <div class="section-title" id="education-title">Educação</div>
         
         <div class="entry">
             <div class="entry-header">
-                <span class="entry-title">Instituto Federal do Espírito Santo - IFES</span>
-                <span class="entry-date">March 2021 -- e (~ 5 Years)</span>
+                <span class="entry-title" id="education-1-title">Instituto Federal do Espírito Santo - IFES</span>
+                <span class="entry-date" id="education-1-date">March 2021 -- estimated for end of 2026(~ 5 Years)</span>
             </div>
-            <div class="entry-details">Bacharelado em Engenharia Elétrica | Vitória - ES</div>
+            <div class="entry-details" id="education-1-degree">Bacharelado em Engenharia Elétrica | <span id="education-1-location">Vitória - ES</span></div>
         </div>
     </div>
 
+    <!-- Seção de Habilidades -->
     <div class="section">
-        <div class="section-title">Habilidades</div>
+        <div class="section-title" id="skills-title">Habilidades</div>
         
         <div class="skills-list">
             <ul>
-                <li><strong>Idiomas:</strong> <strong>Fluente</strong>: Inglês (C1 - Cambridge) | <strong>Intermediário</strong>: Francês</li>
-                <li><strong>Tecnologias:</strong> C/C++, Python, FreeRTOS, MQTT</li>
-                <li><strong>Ferramentas de desenvolvimento:</strong> Visual Studio Code, PlatformIO, Git, GitHub, EezStudio</li>
-                <li><strong>Frameworks:</strong> Arduino, GitFlow, fastAPI, LVGL</li>
+                <li><strong id="skills-languages">Idiomas</strong>: <span id="skills-languages-desc">Fluente: Inglês (C1 - Cambridge) | Intermediário: Francês</span></li>
+                <li><strong id="skills-tech">Tecnologias</strong>: <span id="skills-tech-desc">C/C++, Python, FreeRTOS, MQTT</span></li>
+                <li><strong id="skills-tools">Ferramentas de desenvolvimento</strong>: <span id="skills-tools-desc">Visual Studio Code, PlatformIO, Git, GitHub, EezStudio</span></li>
+                <li><strong id="skills-frameworks">Frameworks</strong>: <span id="skills-frameworks-desc">Arduino, GitFlow, fastAPI, LVGL</span></li>
             </ul>
         </div>
     </div>
